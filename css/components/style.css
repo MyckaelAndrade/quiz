@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #2121ff, #5c5cff, #c32cff, #ba26ff);
+    animation: animation 60s ease-in-out alternate infinite;
+    height: 100vh;
+}
+
+@keyframes animation {
+    0% {background: linear-gradient(80deg,  #c32cff, #2121ff, #5c5cff,#ba26ff);}
+    10% {background: linear-gradient(90deg,   #2121ff, #5c5cff,#ba26ff, #c32cff);}
+    20% {background: linear-gradient(100deg,   #2121ff, #5c5cff,#826cff, #dc6aff);}
+    30% {background: linear-gradient(120deg,   #2121ff, #5c5cff,#6b75ff, #c32cff);}
+    40% {background: linear-gradient(130deg,   #2121ff, #5c5cff,#ba26ff, #c32cff);}
+    50% {background: linear-gradient(140deg,   #2121ff, #d15cff,#ba26ff, #c32cff);}
+    60% {background: linear-gradient(150deg,   #dc51ff, #be5cff,#ba26ff, #636eff);}
+    70% {background: linear-gradient(160deg,   #2121ff, #5c5cff,#ba26ff, #c32cff);transition: all 3s;}
+    80% {background: linear-gradient(170deg,   #2121ff, #5c5cff,#ba26ff, #c32cff);transition: all 3s;}
+    90% {background: linear-gradient(180deg,   #2121ff, #5c5cff,#ba26ff, #c32cff);transition: all 3s;}
+}

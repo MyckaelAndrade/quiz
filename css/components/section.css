@@ -1,0 +1,37 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 97%;
+    height: 95vh;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #fff;
+}
+
+.main-section{
+    width: 60%;
+    height: 90vh;
+}
+
+.border{
+    animation: animation-border 5s ease-in-out alternate infinite;
+    box-shadow: none;
+}
+
+@keyframes animation-border{
+    0% {border: 5px solid blue;}
+    25% {border: 5px solid green;}
+    50% {border: 5px solid yellow;}
+    75% {border: 5px solid #60008d;}
+    100% {border: 5px solid red;}
+}
+
+@media (max-width: 900px){
+    .main-section{
+        width: 90%;
+        height: 60vh;
+    }
+}

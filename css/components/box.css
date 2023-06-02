@@ -1,0 +1,54 @@
+#main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+}
+
+.box-txt{
+    width: 90%;
+    height: 60%;
+    padding: 10px;
+}
+
+.box-txt h1{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.box-txt p{
+    text-align: center;
+    font-size: 50px;
+}
+
+@media (max-width: 900px){
+    .box-txt h1{
+        font-size: 10vw;
+    }
+    
+    .box-txt p{
+        font-size: 25px;
+    }
+
+    .box{
+        position: relative;
+        top: -100px;
+    }
+
+    #main-box{
+        position: relative;
+        top: -50px;
+        width: 100%;
+        height: 60%;
+    }
+}

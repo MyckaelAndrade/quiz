@@ -1,0 +1,15 @@
+#title{
+    position: relative;
+    top: 80px;  
+    font-size: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+@media (max-width: 900px){
+    #title{
+        top: 5px;  
+        font-size: 14vw;
+    }
+}
